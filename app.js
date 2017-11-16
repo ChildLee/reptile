@@ -50,7 +50,7 @@ function startRequest(x) {
             var nextLink = encodeURI("http://www.sz-ylh.com/mobile/shop/detail/shop_id/" + i + ".html");
 
             //这是亮点之一，通过控制I,可以控制爬取多少篇文章.
-            if (i <= 1938) {
+            if (i <= 100) {
                 fetchPage(nextLink);
             }
         });
