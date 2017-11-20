@@ -40,7 +40,7 @@ function startRequest(x) {
             var str = info.Contact + "\n" + info.phone + "\n" + info.firm + "\n" + info.address + "\n\n";
 
             //存储查询的信息
-            fs.appendFile('./data/data.txt', str, 'utf-8', function (err) {
+            fs.appendFile('./app.txt', str, 'utf-8', function (err) {
 
             });
             console.log(i);
